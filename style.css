@@ -1,0 +1,16 @@
+body{
+    background-color: #BBE1FA;
+    margin: 0;
+}
+h1{
+    margin-top: 0;
+}
+.top{
+    background-color: blue;
+}
+.middle{
+    background-color: red;
+}
+.bottom{
+    background-color: green;
+}
