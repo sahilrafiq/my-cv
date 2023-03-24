@@ -1,16 +1,38 @@
 body{
     background-color: #BBE1FA;
     margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    font-family: 'JetBrains Mono', monospace;
 }
 h1{
     margin-top: 0;
+    font-family: 'Sacramento', cursive;;
+    
 }
 .top{
-    background-color: blue;
+    background-color: #BBE1FA;
+}
+.a{
+    height: 70%;
+    width: 100%;
+}
+.b{
+    text-decoration: underline;
+}
+h1{
+    text-align: center;
 }
 .middle{
-    background-color: red;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: absolute;
 }
 .bottom{
-    background-color: green;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    right: 100px;
 }
