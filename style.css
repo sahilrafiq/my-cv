@@ -8,6 +8,7 @@ body{
 h1{
     margin-top: 0;
     font-family: 'Sacramento', cursive;;
+    color: #66BFBF;
     
 }
 .top{
@@ -22,17 +23,92 @@ h1{
 }
 h1{
     text-align: center;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
 }
 .middle{
     height: 200px;
     width: 200px;
-    background-color: blue;
-    position: absolute;
+
 }
 .bottom{
     height: 200px;
-    width: 200px;
-    background-color: red;
-    position: absolute;
-    right: 100px;
+    width: 200px;;
+}
+.python{
+    height: 20%;
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+.stack{
+    height: 20%;
+    width: 20%;
+    float: right;
+}
+.profil{
+    width: 15%;
+    height: 30%;
+    border-radius: 50%;
+}
+.intro{
+    font-size: 2rem;
+}
+h2{
+    color: #66BFBF;
+    padding: 10px;
+}
+.skill-row{
+    text-align: left;
+    width: 50%;
+    margin: 100px auto 100px auto;
+}
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 5%;
+}
+.p{
+    margin: auto auto auto 30%;
+}
+.btn {
+    background: #125b8c;
+    background-image: -webkit-linear-gradient(top, #125b8c, #3f2894);
+    background-image: -moz-linear-gradient(top, #125b8c, #3f2894);
+    background-image: -ms-linear-gradient(top, #125b8c, #3f2894);
+    background-image: -o-linear-gradient(top, #125b8c, #3f2894);
+    background-image: linear-gradient(to bottom, #125b8c, #3f2894);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'JetBrains Mono';
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #5200d6;
+    background-image: -webkit-linear-gradient(top, #5200d6, #570b99);
+    background-image: -moz-linear-gradient(top, #5200d6, #570b99);
+    background-image: -ms-linear-gradient(top, #5200d6, #570b99);
+    background-image: -o-linear-gradient(top, #5200d6, #570b99);
+    background-image: linear-gradient(to bottom, #5200d6, #570b99);
+    text-decoration: none;
+  }
+.bottom-container{
+    background-color: #37306B;
+    margin-top: 20px;
+    padding: 10px 0 10px;
+}
+a{
+    color: #ffffff;
+    font-family: 'JetBrains Mono';
+    margin: auto 10px auto 10px;
+    text-decoration: none;
+}
+a:hover{
+ color: #66BFBF;
 }
